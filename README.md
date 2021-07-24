@@ -1,6 +1,6 @@
 ## JLox
 
-This is a JLox, a simple C-like programming language built usng Java. I am building this to explore concepts in Compilers and Programming Languages
+This is JLox, a simple C-like programming language built usng Java. I am building this to explore concepts in Compilers and Programming Languages
 
 This follows a programming language tutorial from [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom.
 
