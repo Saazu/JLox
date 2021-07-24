@@ -7,7 +7,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.Scanner;
 
 public class JLox {
     static boolean hadError = false;
@@ -45,6 +44,7 @@ public class JLox {
     }
 
     private static void run(String source) {
+        // Scanner class will be addd later
         Scanner scanner = new Scanner(source);
 
         List<Token> tokens = scanner.scanTokens();
